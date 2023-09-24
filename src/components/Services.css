@@ -1,0 +1,51 @@
+/* Services CSS */
+.skill {
+  padding: 80px 0 80px 0;
+  position: relative;
+}
+.skill-bx {
+  background: #333333a7;
+  border-radius: 64px;
+  text-align: center;
+  padding: 30px 30px;
+  margin-top: -60px;
+}
+.skill h2 {
+  color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+}
+.skill p {
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 75px auto;
+}
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.skill-slider .item {
+  color: #ffffff;
+}
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+}
+.arrow:hover {
+  filter: brightness(0) invert(1) sepia(100%) saturate(7486%) hue-rotate(164deg) brightness(104%) contrast(101%);
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}

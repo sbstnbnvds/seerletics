@@ -1,0 +1,133 @@
+/* Fonts */
+@font-face {
+    font-family: ScretchPro;
+    src: url('./assets/font/StretchPro.otf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: ScretchPro;
+    src: url('./assets/font/CreatoDisplay-Bold.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: ScretchPro;
+    src: url('./assets/font/CreatoDisplay-Bold.otf');
+    font-weight: 400;
+}
+
+/* Default CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body{
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #e0e0e0 !important;
+  color: rgb(47, 47, 47) !important;
+  font-family: 'ScretchPro', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+@media screen and (min-width:1700px) {
+    main .container {
+      max-width: 100%;
+      padding: 0 150px;
+    }
+}
+
+p.success {
+    color: green;
+}
+
+p.danger {
+    color: red;
+}
+
+/* App CSS 
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: auto;
+  scale: 50%;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(68, 68, 68);
+}
+
+
+.App-link {
+  color: #61b88e;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header p {
+  font-family: sans-serif !important;
+  font-size: auto;
+  font-weight: bold;
+}
+*/

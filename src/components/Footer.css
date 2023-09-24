@@ -1,0 +1,19 @@
+/* Footer CSS */
+.footer {
+    padding: 20px 0 5px 0;
+    background: #333333;
+    /* background-image: url('./assets/img/footer-bg.png'); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer img {
+    width: 26%;
+}
+.footer p {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+}

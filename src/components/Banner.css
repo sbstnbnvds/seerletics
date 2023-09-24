@@ -1,0 +1,125 @@
+/* Banner CSS */
+.banner video {
+  object-fit: cover;
+  position: fixed;
+  width: 1920px;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: brightness(0.8) grayscale(1);
+}
+@media screen and (min-width: 1920px) {
+  .banner video {
+    min-height: 100%;
+    min-width: 100%;
+  }
+}
+.banner {
+  margin-top: 0;
+  padding: 220px 0 100px 0;
+  /* background-color: #e0e0e0; */
+  /* background-image: url('./assets/img/banner-4.png'); */
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  border-width: 3px;
+  border-style: solid;
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+  border-image: linear-gradient(90.21deg, #7bbada -5.91%, #64b783 111.58%) 1;
+  background-image: linear-gradient(90.21deg, #7bbada -5.91%, #64b783 111.58%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner p {
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .banner p {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .banner p {
+    font-size: 27px;
+  }
+}
+.banner a {
+  color: #7bbada;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.banner a:hover {
+  color: #64b783;
+}
+.sales {
+  font-weight: 700;
+  color: #121212;
+  padding: 8px 15px;
+  font-size: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  position: relative;
+  background: linear-gradient(90.21deg, #7bbada -5.91%, #64b783 111.58%);
+  transition: 0.3s ease-in-out;
+  bottom: 5px;
+}
+.sales span {
+  z-index: 1;
+  position: relative;
+}
+.sales:hover {
+  color: #fff;
+  background: none;
+  border: 3px solid #fff;
+}
+.sales::before {
+  content: "";
+  border-radius: 12px;
+  background: rgba(217, 217, 217, 0.1);
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.sales:hover::before {
+  width: 100%;
+}
+.banner img {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+  0% {
+      transform: translateY(-20px);
+  }
+  50% {
+      transform: translateY(20px);
+  }
+  100% {
+      transform: translateY(-20px);
+  }
+}

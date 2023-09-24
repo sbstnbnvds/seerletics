@@ -1,0 +1,30 @@
+.logo-slider {
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+.logo-slider .slide-track {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.logo-slider .slide {
+    height: 100px;
+}
+
+.logo-slider img {
+    height: 100%;
+}
